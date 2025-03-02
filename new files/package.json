@@ -1,0 +1,24 @@
+
+{
+  "name": "researcher-management-ui",
+  "version": "1.0.0",
+  "description": "Researcher Management UI built with React",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.0"
+  },
+  "keywords": [],
+  "author": "Texas A&M Researcher Management",
+  "license": "ISC"
+}
