@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Centered container used for forms and content */
+.container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    color: #500000;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Inputs, Textareas, and Selects */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #500000;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    border: none;
+    background: linear-gradient(135deg, #500000, #800000);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #800000, #a00000);
+    box-shadow: 0 4px 10px rgba(128, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 1.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+}
