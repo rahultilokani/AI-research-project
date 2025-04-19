@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1  # Change to your AWS region
         
     - name: Deploy to S3
-      run: aws s3 sync ./ s3://github-actions-test01/ --exclude ".git/*" --exclude ".github/*"
+      run: aws s3 sync ./ s3://aws-dev-us-east-1-react-source-001/ --exclude ".git/*" --exclude ".github/*"
